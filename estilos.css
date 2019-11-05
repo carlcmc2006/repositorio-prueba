@@ -1,0 +1,104 @@
+ *{
+     margin: 0px;
+     padding: 0px;
+ }
+
+ h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+ 
+  h2{
+      font-weight: bold;
+      font-size: 20px;
+      font-family: sans-serif;
+  }
+ 
+  header, section footer, aside, nav, article, hgroup{
+      
+      display: block;
+  }
+  body{
+      text-align: center;
+  }
+  .agrupar{
+      border: 1px solid black;
+      width: 960px;
+      margin: 40px auto;
+     
+  }
+  .header{
+      background: #F3E2A9 ;
+      border: 1px solid #BDBDBD;
+      padding: 20px;
+  }
+  .header h1{
+      text-align: left;
+  }
+  .menu{ 
+    background:#848484  ;
+    border: 1px solid #BDBDBD;
+  }
+  .menu li{
+      list-style: none;
+      padding: 5px;
+      font: blof 14px verdana;
+      display: inline-block;
+  }
+  .article{
+    border: 1px solid #6E6E6E;
+    margin: 20px;
+    background: #F3E2A9;
+
+  }
+  .article time{
+      color:#BDBDBD ;
+  }
+  .article footer{
+     text-align: right;
+     margin-top: 20px;
+  }
+  .article2{
+      border: 1px solid #6E6E6E;
+      margin: 20px;
+      background: #F3E2A9;
+
+  }
+  .article2 time{
+    color:#BDBDBD ;}
+    
+  .article2 footer{
+      text-align: right;
+      margin-top: 20px;
+  }
+  .section{
+      margin: 20px;
+      width: 60%; 
+      float: left;
+      
+  }
+  .columna{
+      width: 30%;
+      float: left;
+      margin: 20px 0;
+  }
+  .columna blockquote{
+      border: 1px solid black;
+      padding: 40px;
+      background: #F3E2A9 ;
+      margin-bottom: 20px;
+      }
+
+  
+  .pie{
+      clear: both;
+      background: #6E6E6E;
+      color: #FAFAFA;
+      padding: 20px
+  }
+  .img{
+      width: 80px;
+      display: block;
+      margin: 20px auto;
+  }
